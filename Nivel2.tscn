@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Fonts/Font.tres" type="DynamicFont" id=1]
+
+[node name="Nivel1" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1023.0
+margin_bottom = 597.0
+color = Color( 0.192157, 0.321569, 0.458824, 1 )
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+margin_right = 1027.0
+margin_bottom = 597.0
+
+[node name="LevelLabel" type="Label" parent="CenterContainer"]
+margin_left = 434.0
+margin_top = 276.0
+margin_right = 593.0
+margin_bottom = 320.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "Nivel 2"

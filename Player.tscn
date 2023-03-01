@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Objects/DialogArea/Assets/Gardener.png" type="Texture" id=1]
+[ext_resource path="res://Player.gd" type="Script" id=2]
+
+[node name="Player" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Gardener" type="Sprite" parent="."]
+position = Vector2( 122, 406 )
+scale = Vector2( 7.1875, 6.0625 )
+texture = ExtResource( 1 )
