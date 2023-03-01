@@ -26,7 +26,6 @@ func _on_Timer2_timeout():
 func _input(event):
 	if event is InputEventKey:
 		if event.scancode == KEY_P:
-			# Aquí puedes agregar cualquier código que desees que se ejecute cuando se presiona la tecla "p"
 			print("Tecla P presionada")
 func _on_Button_pressed():
 	get_tree().paused=false
